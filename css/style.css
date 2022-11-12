@@ -12,5 +12,16 @@
 /*Javascript CSS end*/
 
 /*jQuery start*/
-.title{}
+.title{
+	margin-top: 20px;
+	background-color: #584848;
+	text-align: center;
+}
+.jq_h2{
+	font-size: 40px;
+	color: aqua;
+}
+.jq_content h2{
+	color: #101010;
+}
 /*jQuery end*/

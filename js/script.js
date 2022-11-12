@@ -10,5 +10,7 @@ function textChange(){
 // ==== jQuery ====
 
 $(document).ready(function(){
-	$(selector).event(effect);
+	$('.btn_alert').click(function(){
+		alert("It Works.");
+	});
 });
