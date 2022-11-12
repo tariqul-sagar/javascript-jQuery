@@ -29,5 +29,7 @@ $(document).ready(function(){
 
     $( "#sortable" ).sortable();
 
+    $( "#accordion" ).accordion();
+
 
 });
