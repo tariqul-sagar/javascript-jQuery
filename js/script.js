@@ -32,4 +32,33 @@ $(document).ready(function(){
     $( "#accordion" ).accordion();
 
 
+    var availableTags = [
+      "HTML",
+      "CSS",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "PHP",
+      "COBOL",
+      "React",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Node",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Laravel"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+
+
 });
