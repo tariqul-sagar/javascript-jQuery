@@ -15,4 +15,19 @@ $(document).ready(function(){
 	});
 
 	$( "#draggable" ).draggable();
+
+	$( "#drag" ).draggable();
+
+	$( "#droppable" ).droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Perfect!" );
+      }
+    });
+
+    $( "#sortable" ).sortable();
+
+
 });
