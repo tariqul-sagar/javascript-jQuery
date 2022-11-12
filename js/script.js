@@ -13,4 +13,6 @@ $(document).ready(function(){
 	$('.btn_alert').click(function(){
 		alert("It Works.");
 	});
+
+	$( "#draggable" ).draggable();
 });
