@@ -1,0 +1,16 @@
+/*Javascript CSS start*/
+.header_h1{
+	padding: 10px 0;
+	color: #ffffff;
+	background-color: #12121a;
+}
+.js_h1,.jq_h1{
+	margin: 0;
+	font-size: 56px;
+	text-align: center;
+}
+/*Javascript CSS end*/
+
+/*jQuery start*/
+.title{}
+/*jQuery end*/
