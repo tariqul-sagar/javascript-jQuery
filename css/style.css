@@ -89,5 +89,11 @@
 }
 
 
+label {
+    display: inline-block;
+    width: 5em;
+  }
+
+
 
 /*jQuery end*/
