@@ -88,11 +88,22 @@
 	border: 2px dotted gray; 
 }
 
-
-label {
+.c_tooltops label {
     display: inline-block;
     width: 5em;
   }
+
+
+.c_selectmenu fieldset {
+      border: 0;
+    }
+.c_selectmenu label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+.c_selectmenu .overflow {
+  height: 200px;
+}
 
 
 
